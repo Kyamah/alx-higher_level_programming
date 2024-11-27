@@ -20,6 +20,6 @@ print(total)
 
 total1 = 0
 for z in range(1, 100):
-    if z % 5 == 0:
+    if z % 3 == 0 or z % 5 == 0:
         total1 += z
 print(total1)
